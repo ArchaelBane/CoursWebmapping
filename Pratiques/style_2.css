@@ -1,0 +1,130 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* container */
+.container, .nav-bar , .container-sign-up{
+    border: 1px solid #73fdd4;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    background-color: #73fdd4;
+}
+.nav-bar {
+    height: 10%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.nav-bar1, .nav-bar2, .nav-bar3 {
+    border: 1px solid #73fdd4;
+    background-color: #60d4b1;
+}
+.nav-bar1 {
+    width: 10%;
+    height: 100%;
+}
+.nav-bar2 {
+    width: 10%;
+    height: 100%;
+}
+.nav-bar3 {
+    width: 10%;
+    height: 100%;
+}
+.container-sign-up {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* container-sign-up */
+.csu-left, .csu-right {
+    border: 1px solid red;
+}
+.csu-left {
+    width: 400px;
+    height: 340px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.csu-left1, .csu-left2, .csu-left3, .csu-left4 {
+    border: 1px solid #73fdd4;
+}
+.csu-left1 {
+    width: 380px;
+    height: 70px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.csu-left2 {
+    width: 380px;
+    height: 70px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.csu-left3 {
+    width: 380px;
+    height: 70px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.csu-left4 {
+    width: 380px;
+    height: 70px;
+    margin: 10px;
+    background-color: rgba(28, 4, 252, 0.61);
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: #73fdd4;
+    font-size: 40px;
+    color: white;
+}
+.csu-right {
+    width: 400px;
+    height: 340px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.csu-right img {
+    width: 100%;
+    height: 100%;
+}
+.titre {
+    width: 400px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 130px;
+    left: 252px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+nav {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+li {
+    background-image: url(1.jpg);
+    width: 100%;
+    height: 100%;
+}
